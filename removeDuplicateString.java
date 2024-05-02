@@ -1,5 +1,6 @@
+
 public class removeDuplicateString {
-    public static void duplicate(String str,int idx,StringBuilder newStr,boolean map[])
+    public static void duplicate(String str,int idx,StringBuilder newStr,boolean map[ ])
     {
         if(idx==str.length())
         {
@@ -21,6 +22,6 @@ public class removeDuplicateString {
     {
         String str="ApnaCollege";
 
-        duplicate(str,0,new StringBuilder(),new boolean[26]);
+        duplicate(str,0,new StringBuilder(" "),new boolean[26]);
     }
 }
